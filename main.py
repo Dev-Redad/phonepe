@@ -30,7 +30,7 @@ ADMIN_IDS = [7223414109, 6053105336, 7381642564]
 STORAGE_CHANNEL_ID = -1002724249292         # where admin-uploaded files are stored
 PAYMENT_NOTIF_CHANNEL_ID = -1002865174188   # channel that receives PhonePe Business messages
 
-UPI_ID = "debjyotimondal1010@okhdfcbank"
+UPI_ID = "q196108861@ybl"
 UPI_PAYEE_NAME = "Seller"
 
 PAY_WINDOW_MINUTES = 5
