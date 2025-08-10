@@ -244,9 +244,9 @@ def start_purchase(ctx: CallbackContext, chat_id: int, uid: int, item_id: str):
     caption = (
         f"💰 Pay ₹{display_amt} to `{UPI_ID}`\n\n"
 "📋 Instructions:\n"
-"• 📱 Open any UPI app (GPay / PhonePe / Paytm)\n"
-"• 🪪 Scan this QR or copy the UPI ID\n"
-f"• 💳 Pay exactly ₹{display_amt} within {PAY_WINDOW_MINUTES} minutes\n"
+"📱 Open any UPI app (GPay / PhonePe / Paytm)\n"
+"🪪 Scan this QR or copy the UPI ID\n"
+f"💳 Pay exactly ₹{display_amt} within {PAY_WINDOW_MINUTES} minutes\n"
 "✅ Verification is automatic — 📂 Files arrive after payment."
     )
 
